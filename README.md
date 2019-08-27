@@ -5,7 +5,7 @@
 - IBM Cloud Overview
 - Workshop 1: [Build three serverless applications with Apache OpenWhisk!](serverless/README.md)
 - Workshop 2: [Running Your Docker Containers in Kubernetes in IBM Cloud](containers/README.md)
-- Workshop 3: [Deploy and monitor machine learning models on IBM Cloud](machine-learning/README.md)
+- Workshop 3: [Deploy and monitor machine learning models on IBM Cloud](machine-learning/)
 
 
 Join IBM Developer for our very first IBM Cloud Education Summit. A full-day of hands-on training where you will learn about AI, Machine Learning, Kubernetes and Serverless to help you build your next application.
