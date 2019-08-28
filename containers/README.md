@@ -307,9 +307,9 @@ To see these in action we’ll do an upgrade, but we’ll also make sure it goes
 
 ## Step 1: Make a Bad Image
 
-First we’ll have to edit our code to make it invalid python. We can do this by modifying status_page/status_page/view.py and adding a bad line near the top such as import noimport. Any other python error is fine as well.
+First we’ll have to edit our code to make it invalid python. We can do this by modifying `status_page/status_page/view.py` and adding a bad line near the top such as **import noimport**. Any other python error is fine as well.
 
-After we do this, lets rebuild the image, giving it a new version: 2.
+After we do this, lets rebuild the image, giving it a new version: **:2** .
 
 ```
 ibmcloud cr build --tag us.icr.io/kubeworkshop101/$YOURNAME-status-page:2 status_page
@@ -317,7 +317,7 @@ ibmcloud cr build --tag us.icr.io/kubeworkshop101/$YOURNAME-status-page:2 status
 
 ## Step 2: Upgrade Image
 
-We can now upgrade the application to use this new image. Edit `deploy/status-deployment.yaml` to reference :2 instead of :1.
+We can now upgrade the application to use this new image. Edit `deploy/status-deployment.yaml` to reference **:2** instead of **:1**.
 
 Then run:
 
@@ -334,7 +334,8 @@ status-web-b65fd45f6-nrntw    0/1       Error     3          1m
 ```
 
 We can see that the pod with the new image went into an error state, and because it did, the existing application was left running. So a bad software push was prevented from taking down our application.
-Step 3: Finding out what’s wrong - logs
+
+## Step 3: Finding out what’s wrong - logs
 
 We can use the built in kubernetes logging facility to inspect the broken pod. This is a common way of discovering what is wrong with an application.
 
@@ -360,7 +361,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'noimport'
 ```
 
-And we can see the application crash there. It is easy in this case to resolve this issue by removing our broken line, and creating a new image :3 that fixes things.
+And we can see the application crash there. It is easy in this case to resolve this issue by **removing our broken line (import noimport, if that was what you did)**, and creating a new image **:3** that fixes things.
 
 After you do this you’ll see something like follows:
 
@@ -376,8 +377,9 @@ status-web-666d49df6c-rfbzf   0/1       Running       0          7s
 status-web-b65fd45f6-nrntw    0/1       Terminating   5          5m
 ```
 
-The :2 image based pod is terminated, we don’t want any of those out there. An image :3 based pod is rolled out, and once it goes into a Running and READY state the system starts cleaning up the image :1 pods, replacing them one by one.
-Step 4: Interactive Debug
+The **:2** image based pod is terminated, we don’t want any of those out there. An image **:3** based pod is rolled out, and once it goes into a Running and READY state the system starts cleaning up the image **:1** pods, replacing them one by one.
+
+## Step 4: Interactive Debug
 
 The is one last tool to put in your toolkit, interactive debugging. Some times you just need to get on a pod and get yourself oriented about the ways that the runtime is different than you imagine. Maybe a network path isn’t clear, or a hostname is resolving in a way you don’t expect.
 
