@@ -263,6 +263,10 @@ The application will now work.
 
 You can now use the application. The front page allows you to add services, and the service specific page allows you to add statuses. You can keep the application up in multiple tabs and see it refreshing in near real time.
 
+ ![](1-status_status_front.png)
+ 
+ ![](2-status_service.png)
+
 ## Step 8: Pod Lifecycle - Recovering from Failures
 
 It’s worth experiencing the deployment recovery of pods on your own. One way to do this is to delete one of our status-web pods. Pick one of them out of the list and do a delete like follows:
