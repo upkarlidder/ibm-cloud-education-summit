@@ -5,7 +5,7 @@ We will look at the different AI/ML services offered on IBM Cloud.
 2. We then look at the brand new `AutoAI` service in conjunction with the complete data science life cycle. 
 3. Finally, we look at how to use some of the popular open source machine learning libraries inside Watson Studio. 
 
-The steps for this workshop are details in the [ibm-cloud-education-summit-ml.pdf document here](./ibm-cloud-education-summit-ml). 
+The steps for this workshop are details in the [ibm-cloud-education-summit-ml.pdf document here](./ibm-cloud-education-summit-ml.pdf). 
 
 ## Overview
 1. Sign up / Log into [IBM Cloud](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
