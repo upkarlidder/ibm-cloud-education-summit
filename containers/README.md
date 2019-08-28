@@ -4,8 +4,10 @@
 
 The sample application is a status page application that lets you record system status.
 
-## Deploying Your First App
-Step 1: Clone Repo
+# Deploying Your First App
+This is our first application with Kubernetes.
+
+## Step 1: Clone Repo
 
 `git clone https://gitlab.com/ibm/kube101`
 
