@@ -4,7 +4,8 @@
 - Step 1: Configure your local development environment
 - Step 2: Create Serverless Actions and APIs
 - Step 3: Use the IBM Cloud UI to create Serverless Functions
-- Step 4: (Stretch goal) Create a Weather Bot
+- Step 4: Create a Serverless Visual Recognition Service
+- Step 5: (Stretch goal) Create a Weather Bot
 
 # Step 0: Sign up for IBM Cloud
 - [IBM Cloud Sign Up](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
@@ -497,6 +498,10 @@ $ ibmcloud wsk action invoke reverse_words_with_password -r -p text "hello world
 }
 ```
 
-# Stretch Goal: Step 4: Create a Slack Weather Bot
+# Step 4: Create a Visual Recognition Service
+
+This workshop is taken from an [IBM Code Pattern linked here](https://developer.ibm.com/patterns/serverless-cloud-object-storage-image-processing/).
+
+# Stretch Goal: Step 5: Create a Slack Weather Bot
 
 **Instructions:** https://github.com/IBM-Cloud/openwhisk-workshops/tree/master/bootcamp/ex6%20-%20building%20a%20weather%20bot
