@@ -166,15 +166,11 @@ In this exercise, we'll show you the different features of the IBM Cloud Web UIâ
 
 3. Click "Functions" in the list to open the [IBM Cloud Functions homepage](https://console.bluemix.net/openwhisk/).
 
-   ![](images/homepage.gif)
-
 ### Actions
 
 1. Select "Actions" from the left-hand menu panel on the homepage.
 
 [This page](https://console.bluemix.net/openwhisk/actions) is the management page for actions. It shows actions within the chosen region, org and space.
-
-![action details page](images/action-overview.png)
 
 2. Select an action from the page to move to the action details page.
 
@@ -183,8 +179,6 @@ In this exercise, we'll show you the different features of the IBM Cloud Web UIâ
 The action details page will show properties for the chosen action.
 
 For supported runtimes, action source code is shown in an editor which allows users to make changes live. 
-
-![action details page](images/action-editor.png)
 
 Using the menu on the left-hand side, different properties for the action can be accessed and modified.
 
@@ -201,8 +195,6 @@ Using the menu on the left-hand side, different properties for the action can be
 
 *Input parameters to invocations can be modified using the "Change Input" button.*
 
-![Invoking an action](images/invoking-action.gif)
-
 #### Creating Actions
 
 From the [action overview page](https://console.bluemix.net/openwhisk/actions), new actions can be created by providing the source code through the browser-based editor.
@@ -213,23 +205,17 @@ From the [action overview page](https://console.bluemix.net/openwhisk/actions), 
 4. Click "Create"
 5. Fill in the editor with your action source code.
 
-![Creating an action](images/creating-action.gif)
-
 ### Triggers
 
 1. Select "Triggers" from the left-hand menu panel on the homepage.
 
 [This page](https://console.bluemix.net/openwhisk/triggers) is the management page for triggers. It shows triggers within the chosen region, org and space.
 
-![Triggers Overview Page](images/triggers-overview.png)
-
 2. Select a trigger from the page to move to the trigger details page.
 
 #### Details Overview
 
 The trigger details page will show properties for the chosen trigger.
-
-![Triggers Overview Page](images/trigger-details.png)
 
 Using the menu on the left-hand side, different properties for the trigger can be accessed and modified.
 
@@ -247,15 +233,11 @@ From the [trigger overview page](https://console.bluemix.net/openwhisk/triggers)
 4. Fill in "Trigger Name" and "Description"
 5. Click "Create"
 
-![](images/create-trigger.gif)
-
 ### Monitoring
 
 IBM Cloud Functions Web UI comes with a [comprehensive visualisation dashboard](https://console.bluemix.net/openwhisk/dashboard) for monitoring serverless applications.
 
 This dashboard shows activations within a region, org and space. Developers can see activation results, invocation times and logging output through the dashboard. Activations displayed can be filtered by name or time window.
-
-![](images/monitoring.png)
 
 ### APIs
 
@@ -263,13 +245,9 @@ HTTP endpoints for web actions can be created and managed through the IBM Cloud 
 
 1. Select "APIs" from the left-hand menu panel on the homepage.
 
-![API homepage](images/apis-homepage.png)
-
 #### Details Overview
 
 The API details page will show properties for the chosen API, including an API monitoring page showing invocations.
-
-![API homepage](images/api-details.png)
 
 Using the menu on the left-hand side, different properties for the API can be accessed and modified.
 
@@ -296,8 +274,6 @@ In this page, API details can either be filled out manually or imported from an 
 Using the API management create page, security, rate limiting, CORS or oauth support can be configured.
 
 8. Click the "Save" button to create your API.
-
-![Creating an API](images/create-apis.gif)
 
 # Step 3: This exercise will explain how to use sequences to compose new "meta-actions" from existing actions on IBM Cloud Functions.
 
