@@ -1,5 +1,10 @@
 # Running Your Docker Containers in Kubernetes in IBM Cloud
 
+This is summary of the workshop steps - the details and more labs are being listed here:
+http://ibm.gitlab.io/workshop/kube101/
+
+- the details on the pre-configured environment are going to be shown.
+
 ## Sample Application
 
 The sample application is a status page application that lets you record system status.
