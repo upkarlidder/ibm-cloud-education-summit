@@ -7,6 +7,8 @@ We will look at the different AI/ML services offered on IBM Cloud.
 
 The steps for this workshop are details in the [ibm-cloud-education-summit-ml.pdf document here](./ibm-cloud-education-summit-ml.pdf). 
 
+The same slides are also availabled on https://slides.com/upkar/ai-ml-ibm-cloud/
+
 ## Overview
 1. Sign up / Log into [IBM Cloud](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
 2. Create Watson Studio Service.
