@@ -8,10 +8,13 @@
 
 # Step 0: Sign up for IBM Cloud
 - [IBM Cloud Sign Up](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
+
 **Q: I'm having issues signing up for IBM Cloud during the workshop.**
+
 **A:** This may be due to the large number of attendees signing up on the same network. Try visiting your registration link on your phone (not connected to Wi-fi) and then logging in on your laptop.
 
 **Q: What if I already have an IBM Cloud account?**
+
 **A:** Visit http://bit.ly/ibm-cloud-summit-2019 and log in to your account.
 
 # Step 1: Configure your IBM Cloud local environment
@@ -21,11 +24,11 @@
 1. Open the [IBM Cloud Docs](https://console.bluemix.net/docs/) page.
 2. Open the *"[IBM Cloud Developer Tools (CLI)](https://console.bluemix.net/docs/cli/index.html#overview)"* link from the *"IBM Cloud"* section.
 3. Click on the *"[Download and install IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/download_cli.html#download_install)"* link under *"HOW TO"* section in the left-hand menu.
-4. Follow the steps listed under the *["Install from shell"](https://console.bluemix.net/docs/cli/reference/bluemix_cli/download_cli.html#shell_install)*  section to download and install the IBM Cloud CLI.
+4. Follow the steps listed under the *["Install from shell"](https://cloud.ibm.com/docs/cli/reference/bluemix_cli?topic=cloud-cli-install-ibmcloud-cli#shell_install)*  section to download and install the IBM Cloud CLI.
 
-- MacOS: `curl -fsSL https://clis.ng.bluemix.net/install/osx | sh`
-- Linux: `curl -fsSL https://clis.ng.bluemix.net/install/linux | sh`
-- Windows (Powershell): `iex(New-Object Net.WebClient).DownloadString('https://clis.ng.bluemix.net/install/powershell')`
+- MacOS: `curl -fsSL https://clis.cloud.ibm.com/install/osx | sh`
+- Linux: `curl -fsSL https://clis.cloud.ibm.com/install/linux | sh`
+- Windows (Powershell): `iex(New-Object Net.WebClient).DownloadString('https://clis.cloud.ibm.com/install/powershell')')`
 
 ### Log Into IBM Cloud CLI
 
@@ -40,11 +43,11 @@
 
    ```
    Select an API endpoint:
-   1. eu-de - https://api.eu-de.bluemix.net
-   2. au-syd - https://api.au-syd.bluemix.net
-   3. us-east - https://api.us-east.bluemix.net
-   4. us-south - https://api.ng.bluemix.net
-   5. eu-gb - https://api.eu-gb.bluemix.net
+   1. eu-de - https://api.eu-de.cloud.ibm.com
+   2. au-syd - https://api.au-syd.cloud.ibm.com
+   3. us-east - https://api.us-east.cloud.ibm.com
+   4. us-south - https://api.ng.cloud.ibm.com
+   5. eu-gb - https://api.eu-gb.cloud.ibm.com
    6. Enter a different API endpoint
    Enter a number> 
    ```
