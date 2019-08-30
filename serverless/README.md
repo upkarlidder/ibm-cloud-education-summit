@@ -1,5 +1,11 @@
 # Build three serverless applications with Apache OpenWhisk!
 
+- Step 0: Sign up for IBM Cloud
+- Step 1: Configure your local development environment
+- Step 2: Create Serverless Actions and APIs
+- Step 3: Use the IBM Cloud UI to create Serverless Functions
+- Step 4: (Stretch goal) Create a Weather Bot
+
 # Step 0: Sign up for IBM Cloud
 - [IBM Cloud Sign Up](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
 **Q: I'm having issues signing up for IBM Cloud during the workshop.**
@@ -113,9 +119,7 @@
 
 *If this command executes successfully, you have verified that the IBM Cloud CLI and Cloud Functions plugin have been installed and configured correctly. If this does not work, please contact the workshop organiser to provide assistance!*
 
-
-
-# Application 1: Create Serverless Actions and APIs
+# Step 2: Create Serverless Actions and APIs
 
 This exercise will introduce the [IBM Cloud Functions Web UI](https://console.bluemix.net/openwhisk/). This application helps to manage your IBM Cloud Functions applications from a web browser, rather than using the command-line.
 
@@ -292,7 +296,7 @@ Using the API management create page, security, rate limiting, CORS or oauth sup
 
 ![Creating an API](images/create-apis.gif)
 
-# Application 2: This exercise will explain how to use sequences to compose new "meta-actions" from existing actions on IBM Cloud Functions.
+# Step 3: This exercise will explain how to use sequences to compose new "meta-actions" from existing actions on IBM Cloud Functions.
 
 *Once you have completed this exercise, you will have…*
 
@@ -514,6 +518,6 @@ $ ibmcloud wsk action invoke reverse_words_with_password -r -p text "hello world
 }
 ```
 
-# Stretch Goal: Application 3: Create a Slack Weather Bot
+# Stretch Goal: Step 4: Create a Slack Weather Bot
 
 **Instructions:** https://github.com/IBM-Cloud/openwhisk-workshops/tree/master/bootcamp/ex6%20-%20building%20a%20weather%20bot
