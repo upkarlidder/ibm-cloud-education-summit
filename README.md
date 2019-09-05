@@ -4,7 +4,7 @@
 - [IBM Sign Up](http://bit.ly/ibm-cloud-summit-2019) - http://bit.ly/ibm-cloud-summit-2019
 - IBM Cloud Overview
 - Workshop 1: [Build three serverless applications with Apache OpenWhisk!](serverless/)
-- Workshop 2: [Running Your Docker Containers in Kubernetes in IBM Cloud](containers/)
+- Workshop 2: [Running Your Docker Containers in Kubernetes in IBM Cloud](containers/) - check out this blog post, since I just published Containers Orchestration with Kubernetes [https://link.medium.com/WwA4z9RjJZ](https://link.medium.com/WwA4z9RjJZ)
 - Workshop 3: [Deploy and monitor machine learning models on IBM Cloud](machine-learning/)
 
 
